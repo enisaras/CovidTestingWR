@@ -1,0 +1,60 @@
+h1 {
+    color: darkred;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.decrement button{
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.increment button{
+  margin-left: 300px;
+  display: flex;
+  
+}
+.previous {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.next:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+.rank-header {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+.data{
+  font-size: 22px;
+  font-weight: bold;
+}
