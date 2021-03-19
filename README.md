@@ -8,7 +8,6 @@ Due to the nature of the world record every submission needs to be reviewed by m
 1) Create a fork of this repository by clicking fork on the top right.
 2) Once you have your repository you can either edit the file on github desktop or clone the repository locally and run the application. Either way navigate to [src/App.js](https://github.com/enisaras/CovidTestingWR/blob/main/src/App.js)
 4) Inside of the App class you will see a variable called ```this.state``` and a list inside of it with the name ```users```, this is the list you will need to append with your information to add your run. An example run(also the current WR):
-5) 
 ```name: "Bop", time:  "1:54.87"```
 
 Disclaimer: If you do not format your time the same way it will be changed so it is or your run will be disqualified until you correct it.
