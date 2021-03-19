@@ -21,7 +21,9 @@ Disclaimer: If you do not format your time the same way it will be changed so it
 Alternatively, if you have no idea how to perform the above steps you can message me on [Discord](https://discordapp.com/users/750020267501158502/) and I will add your run.
 
 ## Rules
-The only rule is to be honest about your run.
+Time starts when you step inside the Armory, and ends when you step outside.
+
+The most important rule is to be honest about your run.
 
 ## Contributing
 Contributions are welcome, the project lacks may things right now so there is a good chance your pull request will be helpful. Check issues or Next Steps right below this, create an issue if you encounter a bug or want something added.
