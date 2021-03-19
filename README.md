@@ -1,6 +1,8 @@
 # Covid Testing WR Any%
 The leaderboard for the ever growing community of Covid Testing speedrunners. 
 
+The website is hosted at: https://enisaras.github.io/CovidTestingWR/
+
 ## To submit a run
 
 Due to the nature of the world record every submission needs to be reviewed by myself and at least one other member of the community. Once your run has been verified it will be added to the website. Follow the steps below to submit to your run;
