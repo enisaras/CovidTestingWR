@@ -3,13 +3,13 @@ import './styles.css';
 class Leaderboard extends Component{
     constructor(props) {
         super(props);
-        
+
         this.sortUsersByTime = this.sortUsersByTime.bind(this);
         this.sortUsersByName = this.sortUsersByTime.bind(this);
         this.filterRank = this.filterRank.bind(this);
         this.increasePage = this.increasePage.bind(this);
         this.decreasePage = this.decreasePage.bind(this);
-        
+
         this.state = {
             users: this.props.users,
             ranking: [],
@@ -106,7 +106,7 @@ class Leaderboard extends Component{
         }
         this.setState({ page: page});
       }
-    decreasePage(e) 
+    decreasePage(e)
     {
         let page = this.state.page;
         if(page > 1)
@@ -118,18 +118,12 @@ class Leaderboard extends Component{
       render() {
         return (
           <div>
-            <table id="lBoard">
+            <h1>Covid Testing World Record Any% Leaderboard</h1>
+            <form className='search-bar' onChange={this.filterRank}>
+              <input type="search" name="search" placeholder="Name"/>
+            </form>
+            <table id="lBoard" className='fancy-table'>
               <tbody className='ranking'>
-                <tr>
-                  <td colSpan="10000"><h1>Covid Testing World Record Any% Leaderboard</h1></td>
-                </tr>
-                <tr>
-                  <td colSpan="10000">
-                    <form onChange={this.filterRank}>
-                      Name: <input type="search" name="search" placeholder="Search"/>
-                    </form>
-                  </td>
-                </tr>
                 <tr>
                   <td className='rank-header sortTime' onClick={ this.sortUsersByTime }> Rank </td>
                   <td className='rank-header sortAlpha' onClick={ this.sortUsersByName }> Name </td>
@@ -146,15 +140,14 @@ class Leaderboard extends Component{
                }
               </tbody>
             </table>
-            <button className='previous' onClick={ this.decreasePage }>prev</button>
+            <button className='page-select' onClick={ this.decreasePage }><span>&#8249;</span></button>
             { this.state.page === 1 ? null: <p onClick={ this.decreasePage }> { this.state.page - 1 }</p>}
             <button> { this.state.page }</button>
             { this.state.page < this.state.pageMax ? <p onClick={ this.increasePage }> { this.state.page + 1 }</p>: null }
-            <button className='next' onClick={ this.increasePage }>next</button>
+            <button className='page-select' onClick={ this.increasePage }><span>&#8250;</span></button>
           </div>
-        
+
         )};
-        
+
 };
 export default Leaderboard;
-
