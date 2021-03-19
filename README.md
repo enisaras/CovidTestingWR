@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Covid Testing WR Any%
+The leaderboard for the ever growing community of Covid Testing speedrunners. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To submit a run
 
-## Available Scripts
+Due to the nature of the world record every submission needs to be reviewed by myself and at least one other member of the community. Once your run has been verified it will be added to the website. Follow the steps below to submit to your run;
 
-In the project directory, you can run:
+1) Create a fork of this repository by clicking fork on the top right.
+2) Once you have your repository you can either edit the file on github desktop or clone the repository locally and run the application. Either way navigate to [src/App.js](https://github.com/enisaras/CovidTestingWR/blob/main/src/App.js)
+4) Inside of the App class you will see a variable called ```this.state``` and a list inside of it with the name ```users```, this is the list you will need to append with your information to add your run. An example run(also the current WR):
+5) 
+```name: "Bop", time:  "1:54.87"```
 
-### `yarn start`
+Disclaimer: If you do not format your time the same way it will be changed so it is or your run will be disqualified until you correct it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+4) Create a pull request from the main branch of your fork to the main branch of this repo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+5) Try to include a picture of your stopwatch either in the pull request or on discord.
 
-### `yarn test`
+Alternatively, if you have no idea how to perform the above steps you can message me on [Discord](https://discordapp.com/users/750020267501158502/) and I will add your run.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Rules
+The only rule is to be honest about your run.
 
-### `yarn build`
+## Contributing
+Contributions are welcome, the project lacks may things right now so there is a good chance your pull request will be helpful. Check issues or Next Steps right below this, create an issue if you encounter a bug or want something added.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Next Steps
+A better way to add a run the a pull request on GitHub.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add Linter
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Add React CI
 
-### `yarn eject`
+Restyle the leaderboard(Maybe more than 1 leaderboard theme?);
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Add the repo link and contributor names to the bottom of the page.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Add this README.md to a new tab in the website
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Add true dark mode
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Add bonobot
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
