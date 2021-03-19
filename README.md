@@ -8,7 +8,7 @@ The website is hosted at: https://enisaras.github.io/CovidTestingWR/
 Due to the nature of the world record every submission needs to be reviewed by myself and at least one other member of the community. Once your run has been verified it will be added to the website. Follow the steps below to submit to your run;
 
 1) Create a fork of this repository by clicking fork on the top right.
-2) Once you have your repository you can either edit the file on github desktop or clone the repository locally and run the application. Either way navigate to [src/App.js](https://github.com/enisaras/CovidTestingWR/blob/main/src/App.js)
+2) Once you have your fork you can either edit the file on github's website(easier) or clone the repository locally and run the application. Either way navigate to [src/App.js](https://github.com/enisaras/CovidTestingWR/blob/main/src/App.js)
 4) Inside of the App class you will see a variable called ```this.state``` and a list inside of it with the name ```users```, this is the list you will need to append with your information to add your run. An example run(also the current WR):
 ```name: "Bop", time:  "1:54.87"```
 
