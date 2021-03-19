@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CovidTestingWR/static/css/main.5671a3e4.chunk.css",
+    "main.js": "/CovidTestingWR/static/js/main.48958385.chunk.js",
+    "main.js.map": "/CovidTestingWR/static/js/main.48958385.chunk.js.map",
+    "runtime-main.js": "/CovidTestingWR/static/js/runtime-main.0a9200f2.js",
+    "runtime-main.js.map": "/CovidTestingWR/static/js/runtime-main.0a9200f2.js.map",
+    "static/js/2.7953e3bb.chunk.js": "/CovidTestingWR/static/js/2.7953e3bb.chunk.js",
+    "static/js/2.7953e3bb.chunk.js.map": "/CovidTestingWR/static/js/2.7953e3bb.chunk.js.map",
+    "static/js/3.6b254927.chunk.js": "/CovidTestingWR/static/js/3.6b254927.chunk.js",
+    "static/js/3.6b254927.chunk.js.map": "/CovidTestingWR/static/js/3.6b254927.chunk.js.map",
+    "index.html": "/CovidTestingWR/index.html",
+    "static/css/main.5671a3e4.chunk.css.map": "/CovidTestingWR/static/css/main.5671a3e4.chunk.css.map",
+    "static/js/2.7953e3bb.chunk.js.LICENSE.txt": "/CovidTestingWR/static/js/2.7953e3bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a9200f2.js",
+    "static/js/2.7953e3bb.chunk.js",
+    "static/css/main.5671a3e4.chunk.css",
+    "static/js/main.48958385.chunk.js"
+  ]
+}
