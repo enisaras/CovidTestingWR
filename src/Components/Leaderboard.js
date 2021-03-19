@@ -34,7 +34,7 @@ class Leaderboard extends Component{
         {
             return -1;
         }
-        if(b.time> a.time)
+        if(b.time < a.time)
         {
             return 1;
         }
@@ -68,13 +68,13 @@ class Leaderboard extends Component{
         const ranking = this.state.ranking;
         const paginate = this.props.paginate;
         if(this.state.asc === true) {
-          ranking.sort(this.compareTimes).reverse();
+          ranking.sort(this.compareTimes);
           ranking.map((user, index) => user.page = Math.ceil((index+1)/paginate));
           this.setState({ ranking: ranking});
           this.setState({ asc: false});
           this.setState({ alph: false});
         } else {
-          ranking.sort(this.compareTimes);
+          ranking.sort(this.compareTimes).reverse();
           ranking.map((user, index) => user.page = Math.ceil((index+1)/paginate));
           this.setState({ ranking: ranking});
           this.setState({ asc: true});
