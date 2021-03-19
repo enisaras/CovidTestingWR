@@ -1,7 +1,7 @@
 # Covid Testing WR Any%
-The leaderboard for the ever growing community of Covid Testing speedrunners. 
+The leaderboard for the ever growing community of Covid Testing speedrunners.
 
-The website is hosted at: https://cxider.github.io/CovidTestingWR/
+The website is hosted at: https://enisaras.github.io/CovidTestingWR/
 
 ## To submit a run
 
@@ -44,4 +44,3 @@ Add this README.md to a new tab in the website
 Add true dark mode
 
 Add bonobot
-
