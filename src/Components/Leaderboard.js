@@ -97,7 +97,9 @@ class Leaderboard extends Component{
         newRanking.map((user, index) => user.page = Math.ceil((index+1)/paginate));
         this.setState({ ranking: newRanking});
         this.setState({ page: 1});
-        this.setState({ pageMax: newRanking[newRanking.length - 1].page})
+        if(newRanking.length > 0){
+          this.setState({ pageMax: newRanking[newRanking.length - 1].page})
+        }
       }
     increasePage(e) {
         let page = this.state.page;
