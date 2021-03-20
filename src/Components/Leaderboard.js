@@ -121,9 +121,13 @@ class Leaderboard extends Component{
         return (
           <div>
             <h1>Covid Testing World Record Any% Leaderboard</h1>
+            <div className = "sub-header">
+            <button className = 'rules-button'>Read the Rules</button>
             <form className='search-bar' onChange={this.filterRank}>
               <input type="search" name="search" placeholder="Name"/>
             </form>
+            <button className = "form-button">Submit a Run</button>
+            </div>
             <table id="lBoard" className='fancy-table'>
               <tbody className='ranking'>
                 <tr>

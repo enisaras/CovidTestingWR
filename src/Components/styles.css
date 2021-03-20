@@ -5,9 +5,27 @@ h1 {
 }
 
 .search-bar {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.sub-header{
+  display: flex;
+  justify-content: center;
+  
+}
+.rules-button{
+  margin-bottom: 20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+.form-button{
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-left: 50px;
+  
 }
 
 .fancy-table {
