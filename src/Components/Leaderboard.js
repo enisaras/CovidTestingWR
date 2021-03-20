@@ -142,11 +142,13 @@ class Leaderboard extends Component{
                }
               </tbody>
             </table>
-            <button className='page-select' onClick={ this.decreasePage }><span>&#8249;</span></button>
-            { this.state.page === 1 ? null: <p onClick={ this.decreasePage }> { this.state.page - 1 }</p>}
-            <button> { this.state.page }</button>
-            { this.state.page < this.state.pageMax ? <p onClick={ this.increasePage }> { this.state.page + 1 }</p>: null }
-            <button className='page-select' onClick={ this.increasePage }><span>&#8250;</span></button>
+            <div className = "page">
+              <button className='page-select' onClick={ this.decreasePage }><span>&#8249;</span></button>
+              { this.state.page === 1 ? null: <p onClick={ this.decreasePage }> { this.state.page - 1 }</p>}
+              <button className = 'page-number'> { this.state.page }</button>
+              { this.state.page < this.state.pageMax ? <p onClick={ this.increasePage }> { this.state.page + 1 }</p>: null }
+              <button className='page-select' onClick={ this.increasePage }><span>&#8250;</span></button>
+            </div>
           </div>
 
         )};

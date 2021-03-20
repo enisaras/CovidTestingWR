@@ -48,10 +48,41 @@ h1 {
   background: var(--highlight);
   color: var(--text);
 }
-
+.page{
+  justify-content: center;
+  display:flex;
+}
+.page-number{
+  display: inline-flex;
+  justify-content: center;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+}
 
 .page-select:hover {
   background: var(--text);
   color: var(--highlight);
   border-color: var(--highlight);
+}
+.footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.footer li{
+  float: left; 
+  text-decoration: none; 
+  padding: 2px; 
+  list-style-type: none;
+}
+.footer a{
+  color: var(--text);
 }

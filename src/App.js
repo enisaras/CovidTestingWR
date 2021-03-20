@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+//import { render } from 'react-dom';
 import Leaderboard from './Components/Leaderboard';
-
+import Footer from './Components/Footer'
 class App extends Component {
   constructor(props) {
   super(props);
@@ -20,6 +20,7 @@ class App extends Component {
     return (
       <div className="App">
         <Leaderboard users={this.state.users} paginate={this.state.paginate}/>
+        <Footer />
       </div>
     );
   }
