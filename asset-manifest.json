@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CovidTestingWR/static/css/main.184d9c5f.chunk.css",
-    "main.js": "/CovidTestingWR/static/js/main.f0925645.chunk.js",
-    "main.js.map": "/CovidTestingWR/static/js/main.f0925645.chunk.js.map",
+    "main.js": "/CovidTestingWR/static/js/main.77dd9d5f.chunk.js",
+    "main.js.map": "/CovidTestingWR/static/js/main.77dd9d5f.chunk.js.map",
     "runtime-main.js": "/CovidTestingWR/static/js/runtime-main.06feceb9.js",
     "runtime-main.js.map": "/CovidTestingWR/static/js/runtime-main.06feceb9.js.map",
     "static/js/2.f055e4f8.chunk.js": "/CovidTestingWR/static/js/2.f055e4f8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.06feceb9.js",
     "static/js/2.f055e4f8.chunk.js",
     "static/css/main.184d9c5f.chunk.css",
-    "static/js/main.f0925645.chunk.js"
+    "static/js/main.77dd9d5f.chunk.js"
   ]
 }
