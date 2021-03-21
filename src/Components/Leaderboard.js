@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import './styles.css';
 class Leaderboard extends Component{
     constructor(props) {
@@ -126,7 +127,9 @@ class Leaderboard extends Component{
             <form className='search-bar' onChange={this.filterRank}>
               <input type="search" name="search" placeholder="Name"/>
             </form>
+            <Link to = '/form' style = {{textDecoration: 'none' }}>
             <button className = "form-button">Submit a Run</button>
+            </Link>
             </div>
             <table id="lBoard" className='fancy-table'>
               <tbody className='ranking'>

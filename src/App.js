@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-//import { render } from 'react-dom';
+import { BrowserRouter,Route } from 'react-router-dom';
 import Leaderboard from './Components/Leaderboard';
 import Footer from './Components/Footer';
 import Form from './Components/run-form/form'
@@ -19,10 +19,17 @@ class App extends Component {
 }
   render() {
     return (
-      <div className="App">
-        <Leaderboard users = {this.state.users} paginate = {this.state.paginate} />
-        <Footer />
+      <BrowserRouter>
+        <div className="App">
+          <Route exact path = '/CovidTestingWR'>
+            <Leaderboard users = {this.state.users} paginate = {this.state.paginate} />
+          </Route>
+          <Route path = '/form'>
+          <Form />
+          </Route>
+          <Footer />
       </div>
+      </BrowserRouter>
     );
   }
 }
