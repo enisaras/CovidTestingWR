@@ -3,6 +3,7 @@ import { BrowserRouter,Route } from 'react-router-dom';
 import Leaderboard from './Components/Leaderboard';
 import Footer from './Components/Footer';
 import Form from './Components/run-form/form'
+import Rules from './Components/rules'
 class App extends Component {
   constructor(props) {
   super(props);
@@ -25,7 +26,10 @@ class App extends Component {
             <Leaderboard users = {this.state.users} paginate = {this.state.paginate} />
           </Route>
           <Route path = '/form'>
-          <Form />
+            <Form />
+          </Route>
+          <Route path = '/rules'>
+            <Rules />
           </Route>
           <Footer />
       </div>

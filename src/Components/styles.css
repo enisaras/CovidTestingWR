@@ -8,6 +8,7 @@ h1 {
   display: inline-flex;
   justify-content: center;
   margin-bottom: 20px;
+  height: 30px;
 }
 .sub-header{
   display: flex;
@@ -15,17 +16,30 @@ h1 {
   
 }
 .rules-button{
+  height: 35px;
   margin-bottom: 20px;
   margin-right: 50px;
-  display: flex;
   justify-content: center;
+  background-color: var(--other);
+  color: var(--text);
+  border-radius: 35px;
+
+}
+.rules-button:hover{
+  background-color: var(--highlight);
 }
 .form-button{
-  display: flex;
+  background-color: var(--other);
+  color: var(--text);
+  height: 35px;
   justify-content: center;
   margin-bottom: 20px;
   margin-left: 50px;
+  border-radius: 35px;
   
+}
+.form-button:hover{
+  background-color: var(--highlight);
 }
 
 .fancy-table {
@@ -103,4 +117,24 @@ h1 {
 }
 .footer a{
   color: var(--text);
+}
+.rules li{
+  list-style: decimal;
+  color: var(--text);
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.back{
+  display: block;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  color: var(--text);
+  background-color: var(--other);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 100px;  
 }
