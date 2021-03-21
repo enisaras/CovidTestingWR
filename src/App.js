@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+import { BrowserRouter,Route } from 'react-router-dom';
 import Leaderboard from './Components/Leaderboard';
-
+import Footer from './Components/Footer';
+import Form from './Components/run-form/form'
+import Rules from './Components/rules'
 class App extends Component {
   constructor(props) {
   super(props);
@@ -13,14 +15,25 @@ class App extends Component {
             {name: "Alex", time: "2:05.85"}
 
           ],
-    paginate: 20
+    paginate: 10
   };
 }
   render() {
     return (
-      <div className="App">
-        <Leaderboard users={this.state.users} paginate={this.state.paginate}/>
+      <BrowserRouter>
+        <div className="App">
+          <Route exact path = '/CovidTestingWR'>
+            <Leaderboard users = {this.state.users} paginate = {this.state.paginate} />
+          </Route>
+          <Route path = '/form'>
+            <Form />
+          </Route>
+          <Route path = '/rules'>
+            <Rules />
+          </Route>
+          <Footer />
       </div>
+      </BrowserRouter>
     );
   }
 }

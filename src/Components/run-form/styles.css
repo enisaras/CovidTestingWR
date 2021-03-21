@@ -1,0 +1,50 @@
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  input[type=submit] {
+    background-color: var(--other);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--highlight);
+  }
+  
+  /* Add a background color and some padding around the form */
+  .Form {
+    border-radius: 5px;
+    
+  }
+  .message{
+      color: var(--text);
+  }
+
+  .back{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    color: var(--text);
+    background-color: var(--other);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 100px;      
+  }
+  .back:hover{
+    background-color: var(--highlight);
+    
+  }

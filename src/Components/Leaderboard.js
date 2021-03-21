@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import './styles.css';
 class Leaderboard extends Component{
     constructor(props) {
@@ -121,9 +122,17 @@ class Leaderboard extends Component{
         return (
           <div>
             <h1>Covid Testing World Record Any% Leaderboard</h1>
+            <div className = "sub-header">
+            <Link to = '/rules' style = {{textDecoration: 'none' }}>
+              <button className = 'rules-button'>Read the Rules</button>
+            </Link>
             <form className='search-bar' onChange={this.filterRank}>
               <input type="search" name="search" placeholder="Name"/>
             </form>
+            <Link to = '/form' style = {{textDecoration: 'none' }}>
+            <button className = "form-button">Submit a Run</button>
+            </Link>
+            </div>
             <table id="lBoard" className='fancy-table'>
               <tbody className='ranking'>
                 <tr>
@@ -142,11 +151,13 @@ class Leaderboard extends Component{
                }
               </tbody>
             </table>
-            <button className='page-select' onClick={ this.decreasePage }><span>&#8249;</span></button>
-            { this.state.page === 1 ? null: <p onClick={ this.decreasePage }> { this.state.page - 1 }</p>}
-            <button> { this.state.page }</button>
-            { this.state.page < this.state.pageMax ? <p onClick={ this.increasePage }> { this.state.page + 1 }</p>: null }
-            <button className='page-select' onClick={ this.increasePage }><span>&#8250;</span></button>
+            <div className = "page">
+              <button className='page-select' onClick={ this.decreasePage }><span>&#8249;</span></button>
+              { this.state.page === 1 ? null: <p onClick={ this.decreasePage }> { this.state.page - 1 }</p>}
+              <button className = 'page-number'> { this.state.page }</button>
+              { this.state.page < this.state.pageMax ? <p onClick={ this.increasePage }> { this.state.page + 1 }</p>: null }
+              <button className='page-select' onClick={ this.increasePage }><span>&#8250;</span></button>
+            </div>
           </div>
 
         )};
