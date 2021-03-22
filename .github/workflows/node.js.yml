@@ -30,8 +30,6 @@ jobs:
 
     - name: Build
       run: npm run build
-      env:
-        REACT_APP_WEBHOOK: ${{secrets.REACT_APP_WEBHOOK}}
 
     - name: Deploy
       run: |

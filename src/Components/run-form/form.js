@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 import {Link} from 'react-router-dom';
-const webhook = require("webhook-discord");
+//const webhook = require("webhook-discord");
 
 export default function Form() {
   const [formData, setFormData] = useState({});
@@ -45,11 +45,13 @@ export default function Form() {
     else{
       setMessage("You already submitted a run today, you can submit another later.")
     }
+    /*
     const Hook = new webhook.Webhook(process.env.REACT_APP_WEBHOOK);
     const msg = new webhook.MessageBuilder()
                 .setName("COVID Testing any% Leaderboard ")
                 .setText(`Name: ${formData.name} Time: ${formData.time}`);
     Hook.send(msg);
+    */
     
   }
 
