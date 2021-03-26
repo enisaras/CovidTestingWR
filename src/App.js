@@ -14,7 +14,9 @@ class App extends Component {
             {name: "Phi11ipus", time: "2:45.20"},
             {name: "Alex", time: "2:05.85"},
             {name: "notBop", time: "8:00:00.00"},
-            {name: "Dom", time: "2:21.06"}
+            {name: "Dom", time: "2:21.06"},
+            {name: "A.Vulgare", time:"2:20.87"},
+            {name: "Bonobot #1 Fan", time: "3:30.31"}
 
           ],
     paginate: 10
