@@ -12,7 +12,7 @@ class App extends Component {
             {name: "Banana Man", time: "2:23.63"},
             {name: "Matt M", time: "2:52.60"},
             {name: "Phi11ipus", time: "2:45.20"},
-            {name: "Alex", time: "2:05.85"},
+            {name: "Alex", time: "1:54.41"},
             {name: "notBop", time: "8:00:00.00"},
             {name: "Dom", time: "2:21.06"},
             {name: "A.Vulgare", time:"2:20.87"},
