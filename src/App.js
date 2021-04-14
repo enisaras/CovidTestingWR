@@ -16,7 +16,7 @@ class App extends Component {
             {name: "notBop", time: "8:00:00.00"},
             {name: "Dom", time: "2:21.06"},
             {name: "A.Vulgare", time:"2:20.87"},
-            {name: "Bonobot's #1 Fan", time: "2:39.85"},
+            {name: "Bonobot's #1 Fan", time: "2:19.19"},
             {name: "dragonheart", time: "2:22.85"},
             {name: "john uskglass", time: "2:37.23"},
             {name: "uᴉloɔ", time: "5:00.39"}
