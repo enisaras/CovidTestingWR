@@ -20,12 +20,11 @@ class App extends Component {
             {name: "dragonheart", time: "2:22.85"},
             {name: "john uskglass", time: "2:37.23"},
             {name: "uᴉloɔ", time: "5:00.39"},
-            {name: "Selmer Takesawayjord", time: "2:33.00"},
+            {name: "Selmer Takesawayjord", time: "2:10.97"},
             {name: "Christos", time: "2:48.44"},
             {name: "DNaes", time: "2:47.95"},
             {name: "JML", time: "2:16.00"},
             {name: "π run", time: "3:09.44"}
-
           ],
     paginate: 10
   };
